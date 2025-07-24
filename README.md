@@ -25,15 +25,15 @@ I HAVE PROVIDED IN‑DEPTH EXPLANATIONS FOR EACH QUESTION, AIMED AT ENHANCING YO
   
 Ans --  
   
--`mapping configuration to real-world resources`  
+- `mapping configuration to real-world resources`  
  Explanation--  
 `Terraform state` maps configuration to real-world resources by storing the mapping between the desired infrastructure configuration defined in Terraform files and the actual resources created in the cloud environment. This mapping helps Terraform to manage and update resources accurately.     
   
--`increased performance`  
+- `increased performance`  
 Explanation--  
 `Terraform state` provides increased performance by storing the current state of managed infrastructure resources. This allows Terraform to efficiently track changes and manage resources without having to query the cloud provider's API repeatedly.  
   
--`determining the correct order to destroy resources`  
+- `determining the correct order to destroy resources`  
 Explanation--  
 `Terraform state` helps in determining the correct order to destroy resources by keeping track of dependencies between resources. This ensures that resources are destroyed in the correct sequence to avoid any issues or errors during the destruction process.  
   
